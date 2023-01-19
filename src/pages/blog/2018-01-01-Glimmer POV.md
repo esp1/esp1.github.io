@@ -1,0 +1,12 @@
+---
+layout: "../../layouts/BlogPost.astro"
+title: "Glimmer POV"
+description: "Lorem ipsum dolor sit amet"
+pubDate: "2018-01-01"
+thumbnailImage: "glimmer-thumb.png"
+heroImage: "glimmer.png"
+---
+
+Some years ago, I built a [ginormous POV globe](/blog/Orbital%20Rendersphere) with folks from the Hoboken Makerbar. It was a great, ambitious project – one of these things that we weren’t sure we could get working at all, but it did, and when it did it was glorious. But there have always been a number of things that I have wanted to improve on with it, and so with help from new friends at MakerSpace Charlotte, I built another one.
+
+This one is much smaller, but also much quieter – so you can actually transport it easily and run it indoors. The entire motor assembly and all of the electronics are hidden away in the base. I also finally got around to completely rewriting the software, which meant doing some very low-level coding including writing a custom linux kernel driver and writing PRU assembly code to drive the LEDs.

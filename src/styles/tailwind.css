@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply m-auto max-w-3xl bg-black text-gray-300 font-quicksand text-lg;
+    }
+
+    a {
+        @apply text-blue-500;
+    }
+
+    a:hover {
+        @apply text-blue-400;
+    }
+}
