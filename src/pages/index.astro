@@ -22,10 +22,10 @@ const posts = (await Astro.glob("./blog/*.{md,mdx}")).sort(
 		<Header title={SITE_TITLE} />
 
 		<!-- hero image -->
-		<img class="rounded-lg" src="/assets/thinker.png" />
+		<img class="rounded-2xl" src="/assets/thinker.png" />
 
 		<main>
-			<section class="m-8">
+			<section class="m-4">
 				<div class="grid grid-cols-3">
 					{posts.map((post) => <ProjectTile post={post} />)}
 				</div>
