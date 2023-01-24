@@ -2,14 +2,16 @@
 layout: "../../layouts/BlogPost.astro"
 title: "TINT Matrix"
 # description: "Lorem ipsum dolor sit amet"
-pubDate: "2018-01-01"
-thumbnailImage: "glimmer-thumb.png"
-heroImage: "glimmer.png"
+pubDate: "2022-08-017"
+thumbnailImage: "tint-matrix-thumb.jpeg"
+heroImage: "tint-matrix-enclosure1.jpeg"
 ---
 import ImageTiles from "../../components/ImageTiles";
 
-Some years ago, I built a [ginormous POV globe](/blog/2013-09-26-Orbital%20Rendersphere) with folks from the Hoboken Makerbar. It was a great, ambitious project – one of these things that we weren’t sure we could get working at all, but it did, and when it did it was glorious. But there have always been a number of things that I have wanted to improve on with it, and so with help from new friends at MakerSpace Charlotte, I built another one.
+This is a wifi-enabled LED matrix display project that I made as a teambuilding project for my team at work. You can connect to it over wifi and send it text, which will scroll across the display.
 
-This one is much smaller, but also much quieter – so you can actually transport it easily and run it indoors. The entire motor assembly and all of the electronics are hidden away in the base. I also finally got around to completely rewriting the software, which meant doing some very low-level coding including writing a custom linux kernel driver and writing PRU assembly code to drive the LEDs.
+It was designed around an inexpensive microcontroller dev board and LED matrix display that could easily be purchased online and delivered to members of our fully remote team. Everything can be assembled without any tools or soldering.
 
-<ImageTiles client:visible images={["glimmer.png", "glimmer-rings.jpg", "glimmer-guts.jpg", "glimmer-makerspace-logo.jpg"]}/>
+Instructions, code, and model files for the 3d printed enclosure are available on the project page here: https://github.com/esp1/tint-matrix.
+
+<ImageTiles client:visible images={["tint-matrix-enclosure1.jpeg", "tint-matrix-enclosure2.jpeg"]}/>
