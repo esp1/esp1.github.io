@@ -6,7 +6,7 @@
 
 @layer base {
     body {
-        @apply m-auto max-w-3xl bg-black text-gray-300 font-quicksand text-lg;
+        @apply m-auto max-w-3xl p-4 bg-black text-gray-300 font-quicksand text-lg;
     }
 
     a {
