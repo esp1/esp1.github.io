@@ -9,11 +9,11 @@ const isActive = href === pathname || href === pathname.replace(/\/$/, "");
 ---
 
 <header class="relative">
-	{isActive && <img src="/assets/thinker.png" />}
+	{isActive && <img class="rounded" src="/assets/thinker.png" />}
 	<nav
 		class:list={[
 			{ "absolute top-0 left-0 pl-4 pt-16": isActive },
-			"pb-4 h-full bg-gradient-to-r from-black to-transparent",
+			"mb-4 p-4 h-full bg-gradient-to-r from-black to-transparent",
 		]}
 	>
 		{
