@@ -19,7 +19,7 @@ export default function ImageTiles(props) {
             const imageSrc = `/assets/${image}`;
             return (
               <img
-                class="cursor-pointer"
+                class="cursor-pointer rounded"
                 onClick={() => openModal(idx)}
                 src={imageSrc}
               />
